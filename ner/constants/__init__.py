@@ -18,7 +18,7 @@ GCP_MODEL_NAME = "model.pt"
 DATA_INGESTION_ARTIFACTS_DIR = "DataIngestionArtifacts"
 
 
-# data transformations
+#data transformations
 
 # DATA_TRANSFORMATION_ARTIFACTS_DIR = "DataTransformationArtifacts"
 # LABELS_TO_IDS_FILE_NAME = "labels_to_ids.pkl"
