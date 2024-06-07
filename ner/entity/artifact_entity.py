@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
-# Data Ingestion Artifacts
 
+# Data Ingestion Artifacts
 @dataclass
 class DataIngestionArtifacts:
     zip_data_file_path: str
@@ -21,23 +21,23 @@ class DataTransformationArtifacts:
 
 
 
-# # Model Training Artifacts
-# @dataclass
-# class ModelTrainingArtifacts:
-#     bert_model_path: str
-#     tokenizer_file_path: str
+# Model Training Artifacts
+@dataclass
+class ModelTrainingArtifacts:
+    bert_model_path: str
+    tokenizer_file_path: str
 
 
 
-# # Model Evaluation Artifacts
-# @dataclass
-# class ModelEvaluationArtifacts:
-#     trained_model_accuracy: float
-#     is_model_accepted: bool
+# Model Evaluation Artifacts
+@dataclass
+class ModelEvaluationArtifacts:
+    trained_model_accuracy: float
+    is_model_accepted: bool
 
 
 
-# @dataclass
-# class ModelPusherArtifacts:
-#     bucket_name: str
-#     trained_model_path: str
+@dataclass
+class ModelPusherArtifacts:
+    bucket_name: str
+    trained_model_path: str
